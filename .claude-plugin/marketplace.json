@@ -9,7 +9,21 @@
     {
       "name": "studio",
       "source": "./",
-      "description": "CnStudio design tools for Claude Code: MCP server connection, design-model skill, and slash commands."
+      "description": "CnStudio design tools for Claude Code: MCP server connection, design-model skill, and slash commands.",
+      "relevance": {
+        "topic": "CnStudio",
+        "signals": {
+          "cwd": [
+            "**/kremlin"
+          ],
+          "filesRead": [
+            "**/.studio/**"
+          ],
+          "cli": [
+            "cnstudio"
+          ]
+        }
+      }
     }
   ]
 }
