@@ -8,5 +8,12 @@
   },
   "homepage": "https://github.com/cnstudio-io/cnstudio",
   "license": "Apache-2.0",
-  "keywords": ["cnstudio", "design", "mcp", "ui", "codegen"]
+  "keywords": [
+    "cnstudio",
+    "design",
+    "mcp",
+    "ui",
+    "codegen"
+  ],
+  "repository": "https://github.com/cnstudio-io/cnstudio-plugin"
 }
