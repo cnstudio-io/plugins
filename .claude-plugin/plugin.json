@@ -1,5 +1,5 @@
 {
-  "name": "plugin",
+  "name": "mcp",
   "description": "Drive CnStudio-designed UIs from Claude Code: the studio's MCP tools (components, layers, slots, props, registries) plus a skill teaching the design model and slash commands for common flows. Requires the CnStudio VS Code extension running with the project open.",
   "version": "0.1.0",
   "author": {
@@ -15,5 +15,5 @@
     "ui",
     "codegen"
   ],
-  "repository": "https://github.com/cnstudio-io/plugin"
+  "repository": "https://github.com/cnstudio-io/plugins"
 }

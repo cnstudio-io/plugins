@@ -14,8 +14,8 @@ instead of hand-editing `.studio/site.json`.
   named slots + routing/forwarding), endpoint discovery via `.studio/mcp.json`
   when the port differs, and the ground rules (never hand-edit site.json or
   generated files).
-- **Slash commands** — `/cnstudio:tree [component]`,
-  `/cnstudio:insert <type> [component] [slot]`, `/cnstudio:open [component]`.
+- **Slash commands** — `/mcp:tree [component]`,
+  `/mcp:insert <type> [component] [slot]`, `/mcp:open [component]`.
 
 ## Requirements
 
@@ -26,8 +26,8 @@ instead of hand-editing `.studio/site.json`.
 ## Install
 
 ```bash
-claude plugin marketplace add cnstudio-io/plugin
-claude plugin install plugin@cnstudio
+claude plugin marketplace add cnstudio-io/plugins
+claude plugin install mcp@cnstudio
 ```
 
 For local development, add the checkout as the marketplace instead:
@@ -43,5 +43,5 @@ claude plugin marketplace add ~/src/cnstudio-plugin
 .claude-plugin/marketplace.json   # lets this repo act as a marketplace
 .mcp.json                         # the cnstudio MCP server
 skills/cnstudio/SKILL.md          # design-model knowledge + fallbacks
-commands/{tree,insert,open}.md    # /cnstudio:* slash commands
+skills/{tree,insert,open}/        # /mcp:* slash commands
 ```
