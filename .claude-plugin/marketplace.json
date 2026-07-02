@@ -7,7 +7,7 @@
   },
   "plugins": [
     {
-      "name": "mcp",
+      "name": "studio",
       "source": "./",
       "description": "CnStudio design tools for Claude Code: MCP server connection, design-model skill, and slash commands."
     }
