@@ -1,13 +1,13 @@
 {
-  "name": "cnstudio-io",
-  "description": "CnStudio design tools for Claude Code \u2014 drive studio-designed UIs through the extension's MCP server.",
+  "name": "cnstudio",
+  "description": "CnStudio design tools for Claude Code — drive studio-designed UIs through the extension's MCP server.",
   "owner": {
     "name": "cnstudio-io",
     "url": "https://github.com/cnstudio-io"
   },
   "plugins": [
     {
-      "name": "cnstudio",
+      "name": "plugin",
       "source": "./",
       "description": "CnStudio design tools for Claude Code: MCP server connection, design-model skill, and slash commands."
     }
