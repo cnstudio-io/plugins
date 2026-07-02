@@ -15,5 +15,5 @@
     "ui",
     "codegen"
   ],
-  "repository": "https://github.com/cnstudio-io/cnstudio-plugin"
+  "repository": "https://github.com/cnstudio-io/plugin"
 }

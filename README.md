@@ -26,8 +26,8 @@ instead of hand-editing `.studio/site.json`.
 ## Install
 
 ```bash
-claude plugin marketplace add cnstudio-io/cnstudio-plugin
-claude plugin install cnstudio@cnstudio
+claude plugin marketplace add cnstudio-io/plugin
+claude plugin install cnstudio@cnstudio-io
 ```
 
 For local development, add the checkout as the marketplace instead:
